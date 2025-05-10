@@ -265,8 +265,8 @@ void loop() {
     // Agora, controlamos o motor apenas pelo estado do botão
     if (motorState)
     {
-      int lecturaSensor = analogRead(SENSOR);
-      int temperatura = map(lecturaSensor, 20, 358, -40, 125);
+      int leituraSensor = analogRead(SENSOR);
+      int temperatura = map(leituraSensor, 20, 358, -40, 125);
 
       // Controla o motor baseado na temperatura
       if (temperatura - 25 > 0 || temperatura - 25 < 0)
