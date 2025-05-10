@@ -292,3 +292,5 @@ void loop() {
   lastButtonState_motor = buttonState_motor;
  
 }
+
+//a melhor organização de código
